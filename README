@@ -10,3 +10,5 @@ Hardware-assisted CRC32C: 0.13 (Nehalem) CPU cycles per byte.
 Since computational speed of 64-bit CRCs is identical to 32-bit and 16-bit, the use of crcutil library enables widespread use of more reliable 64-bit CRCs instead of 32-bit ones.
 
 As a bonus, crcutil also implements a number of useful CRC "tricks" (e.g. computation of CRC of concatenated blocks of data of known length and CRC without touching actual data).
+
+from google: http://code.google.com/p/crcutil/
